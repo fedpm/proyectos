@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ollama = "*"
+langchain-community = "*"
+langchain-ollama = "*"
+jupyter = "*"
+ibm-watsonx-ai = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
